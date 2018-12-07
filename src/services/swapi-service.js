@@ -37,9 +37,9 @@ export default class SwapiService {
         return this._transformStarship(starship)
     }
 
+
     _extractId(item) {
         //from https://regex101.com/
-
         const idRegExp = /\/([0-9]*)\/$/;
         return item.url.match(idRegExp)[1];
     }
