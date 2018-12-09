@@ -2,17 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ee2d35d-84bf-4d6d-8891-42482419dee1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/error-button/error-button.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/error-button/error-button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/error-button/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/people-page/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/people-page/people-page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/people-page/people-page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/error-boundary/error-boundary.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/error-boundary/error-boundary.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/error-boundary/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/row/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/row/row.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/row/row.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/person-details/person-details.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/person-details/person-details.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/item-list/item-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item-list/item-list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/people-page/people-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/people-page/people-page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/random-planet/random-planet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/random-planet/random-planet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/swapi-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/swapi-service.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,7 +27,7 @@
       <file leaf-file-name="person-details.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/person-details/person-details.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
+            <state relative-caret-position="286">
               <caret line="78" column="64" lean-forward="true" selection-start-line="78" selection-start-column="64" selection-end-line="78" selection-end-column="64" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
@@ -35,11 +36,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="swapi-service.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/services/swapi-service.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="72" column="21" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/app/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="58" column="22" lean-forward="true" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
+            <state relative-caret-position="230">
+              <caret line="29" column="6" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="29" selection-end-column="6" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -47,23 +57,59 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="people-page.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="row.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/row/row.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="item-list.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/item-list/item-list.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="27" column="52" lean-forward="true" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="people-page.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/people-page/people-page.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="36" column="18" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="36" selection-end-column="18" />
+            <state relative-caret-position="150">
+              <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
               <folding>
-                <element signature="e#0#40#0" expanded="true" />
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="error-boundary.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/error-boundary/error-boundary.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/people-page/index.js">
+        <entry file="file://$PROJECT_DIR$/src/components/error-boundary/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -98,17 +144,21 @@
         <option value="$PROJECT_DIR$/src/components/error-indicator/error-indicator.js" />
         <option value="$PROJECT_DIR$/src/components/error-indicator/index.js" />
         <option value="$PROJECT_DIR$/src/components/header/header.js" />
-        <option value="$PROJECT_DIR$/src/components/item-list/item-list.js" />
-        <option value="$PROJECT_DIR$/src/services/swapi-service.js" />
         <option value="$PROJECT_DIR$/src/components/error-button/error-button.js" />
         <option value="$PROJECT_DIR$/src/components/error-button/index.js" />
-        <option value="$PROJECT_DIR$/src/components/random-planet/random-planet.js" />
         <option value="$PROJECT_DIR$/src/components/people-page/ondex.js" />
         <option value="$PROJECT_DIR$/src/components/people-page/people-page.css" />
         <option value="$PROJECT_DIR$/src/components/people-page/index.js" />
         <option value="$PROJECT_DIR$/src/components/person-details/person-details.js" />
-        <option value="$PROJECT_DIR$/src/components/people-page/people-page.js" />
+        <option value="$PROJECT_DIR$/src/services/swapi-service.js" />
+        <option value="$PROJECT_DIR$/src/components/random-planet/random-planet.js" />
+        <option value="$PROJECT_DIR$/src/components/item-list/item-list.js" />
+        <option value="$PROJECT_DIR$/src/components/row/index.js" />
+        <option value="$PROJECT_DIR$/src/components/row/row.js" />
         <option value="$PROJECT_DIR$/src/components/app/app.js" />
+        <option value="$PROJECT_DIR$/src/components/error-boundary/error-boundary.js" />
+        <option value="$PROJECT_DIR$/src/components/error-boundary/index.js" />
+        <option value="$PROJECT_DIR$/src/components/people-page/people-page.js" />
       </list>
     </option>
   </component>
@@ -160,7 +210,7 @@
               <item name="star-db-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="people-page" type="462c0819:PsiDirectoryNode" />
+              <item name="error-boundary" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="star-db-react" type="b2602c69:ProjectViewProjectNode" />
@@ -213,12 +263,12 @@
       <option name="presentableId" value="Default" />
       <updated>1543006523875</updated>
       <workItem from="1543006525309" duration="26860000" />
-      <workItem from="1544223957390" duration="4955000" />
+      <workItem from="1544223957390" duration="11228000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31815000" />
+    <option name="totallyTimeSpent" value="38088000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="833" extended-state="6" />
@@ -433,20 +483,6 @@
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/item-list/item-list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="13" selection-start-line="14" selection-start-column="8" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/swapi-service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/error-button/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -467,16 +503,6 @@
     <entry file="file://$PROJECT_DIR$/src/components/people-page/people-page.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/random-planet/random-planet.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/people-page/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -486,7 +512,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/person-details/person-details.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
+        <state relative-caret-position="286">
           <caret line="78" column="64" lean-forward="true" selection-start-line="78" selection-start-column="64" selection-end-line="78" selection-end-column="64" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
@@ -494,22 +520,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/people-page/people-page.js">
+    <entry file="file://$PROJECT_DIR$/src/components/random-planet/random-planet.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="36" column="18" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="36" selection-end-column="18" />
+        <state relative-caret-position="194">
+          <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
           <folding>
-            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/swapi-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="72" column="21" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/item-list/item-list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="27" column="52" lean-forward="true" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/row/row.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/row/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/row/row.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/app/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="58" column="22" lean-forward="true" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
+        <state relative-caret-position="230">
+          <caret line="29" column="6" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="29" selection-end-column="6" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/error-boundary/error-boundary.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/error-boundary/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/error-boundary/error-boundary.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/people-page/people-page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
