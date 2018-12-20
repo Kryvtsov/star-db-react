@@ -79,10 +79,7 @@ class Item extends Component {
 
     render() {
         const {item, image} = this.props;
-        const {
-            id, name, gender,
-            birthYear, eyeColor
-        } = item;
+        const {name} = item;
 
         return (
             <React.Fragment>

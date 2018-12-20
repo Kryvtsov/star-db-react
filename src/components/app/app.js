@@ -67,8 +67,6 @@ export default class App extends Component {
                 <Record field = "length" label = "Length"/>
                 <Record field = "costInCredits" label = "Cost"/>
 
-
-
             </ItemDetails>
         );
         return (
