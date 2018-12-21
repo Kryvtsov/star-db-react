@@ -10,6 +10,13 @@ import PeoplePage from "../people-page";
 import SwapiService from "../../services/swapi-service";
 import Row from "../row";
 import ItemDetails, { Record } from "../item-details/item-details";
+import {
+    PersonList,
+    PlanetList,
+    StarshipList,
+    PersonDetails,
+    PlanetDetails,
+    StarshipDetails} from "../sw-components";
 
 export default class App extends Component {
 
@@ -72,20 +79,27 @@ export default class App extends Component {
         return (
             <div>
                 <Header/>
-                {/* { planet }*/}
+                 { planet }
 
-                {/*<button
+                <button
                     className="toggle-planet btn btn-warning btn-lg"
                     onClick={this.toggleRandomPlanet}>
                     Toggle Random Planet
-                </button>*/}
-                {/*<ErrorButton />
-                <PeoplePage/>*/}
+                </button>
+
+
+
+                <PersonList/>
+                <StarshipList/>
+                <PlanetList/>
 
                 <Row
-                    left={personDetails}
-                    right={starshipDetails}
+                    left={<PersonDetails itemId = {11} />}
+                    right={<StarshipDetails itemId = {9} />}
+                    center={ <PlanetDetails itemId = {8} /> }
                 />
+
+
 
             </div>
         )
