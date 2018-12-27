@@ -9,14 +9,16 @@ import ErrorIndicator from "../error-indicator/error-indicator";
 import PeoplePage from "../people-page";
 import SwapiService from "../../services/swapi-service";
 import Row from "../row";
-import ItemDetails, { Record } from "../item-details/item-details";
+import ItemDetails, {Record} from "../item-details/item-details";
 import {
     PersonList,
     PlanetList,
     StarshipList,
     PersonDetails,
     PlanetDetails,
-    StarshipDetails} from "../sw-components";
+    StarshipDetails
+} from "../sw-components";
+import {SwapiServiceProvider} from "../swapi-service-context";
 
 export default class App extends Component {
 
@@ -53,14 +55,14 @@ export default class App extends Component {
             getStarship,
             getPersonImage,
             getStarshipImage,
-            } = this.swapiService;
+        } = this.swapiService;
         const personDetails = (
             <ItemDetails
                 itemId={11}
                 getData={getPerson}
                 getImageUrl={getPersonImage}>
-                <Record field = "gender" label = "Gender"/>
-                <Record field = "eyeColor" label = "Eye Color"/>
+                <Record field="gender" label="Gender"/>
+                <Record field="eyeColor" label="Eye Color"/>
 
             </ItemDetails>
 
@@ -70,37 +72,31 @@ export default class App extends Component {
                 itemId={5}
                 getData={getStarship}
                 getImageUrl={getStarshipImage}>
-                <Record field = "model" label = "Model"/>
-                <Record field = "length" label = "Length"/>
-                <Record field = "costInCredits" label = "Cost"/>
+                <Record field="model" label="Model"/>
+                <Record field="length" label="Length"/>
+                <Record field="costInCredits" label="Cost"/>
 
             </ItemDetails>
         );
         return (
             <div>
-                <Header/>
-                 { planet }
-
-                <button
-                    className="toggle-planet btn btn-warning btn-lg"
-                    onClick={this.toggleRandomPlanet}>
-                    Toggle Random Planet
-                </button>
-
-
-
-                <PersonList/>
-                <StarshipList/>
-                <PlanetList/>
-
-                <Row
-                    left={<PersonDetails itemId = {11} />}
-                    right={<StarshipDetails itemId = {9} />}
-                    center={ <PlanetDetails itemId = {8} /> }
-                />
-
-
-
+                <SwapiServiceProvider value={this.swapiService}>
+                    <Header/>
+                    {planet}
+                    <button
+                        className="toggle-planet btn btn-warning btn-lg"
+                        onClick={this.toggleRandomPlanet}>
+                        Toggle Random Planet
+                    </button>
+                    <Row
+                        left={<PersonDetails itemId={11}/>}
+                        right={<StarshipDetails itemId={9}/>}
+                        center={<PlanetDetails itemId={8}/>}
+                    />
+                    <PersonList/>
+                    <StarshipList/>
+                    <PlanetList/>
+                </SwapiServiceProvider>
             </div>
         )
     }
