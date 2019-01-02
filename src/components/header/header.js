@@ -21,6 +21,9 @@ const Header = () => {
           <a href="/">Starships</a>
         </li>
       </ul>
+
+        <button
+            className='btn btn-primary btn-sm'>Change Service</button>
     </div>
   );
 };

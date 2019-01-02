@@ -47,6 +47,7 @@ export default class ItemDetails extends Component {
 
         getData(itemId)
             .then((item) => {
+
                 this.setState({
                     item,
                     image: getImageUrl(item),
