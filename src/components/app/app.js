@@ -8,6 +8,7 @@ import ErrorButton from "../error-button/error-button";
 import ErrorIndicator from "../error-indicator/error-indicator";
 import PeoplePage from "../people-page";
 import SwapiService from "../../services/swapi-service";
+import  DummySwapiService from "../../services/dummy-swapi-service";
 import Row from "../row";
 import ItemDetails, {Record} from "../item-details/item-details";
 import {
@@ -22,11 +23,11 @@ import {SwapiServiceProvider} from "../swapi-service-context";
 
 export default class App extends Component {
 
-    swapiService = new SwapiService();
 
     state = {
         showRandomPlanet: true,
-        hasError: false
+        hasError: false,
+        swapiService: new SwapiService()
     };
     toggleRandomPlanet = () => {
         this.setState((state) => {
@@ -35,7 +36,16 @@ export default class App extends Component {
             }
         });
     };
+    onServiceChange = () => {
+        this.setState(({swapiService}) => {
 
+            const Service = swapiService instanceof SwapiService ?
+                DummySwapiService : SwapiService;
+            return {
+                swapiService: new Service()
+            }
+        })
+    }
 
     componentDidCatch() {
         console.log('componentDidCatch()');
@@ -55,7 +65,7 @@ export default class App extends Component {
             getStarship,
             getPersonImage,
             getStarshipImage,
-        } = this.swapiService;
+        } = this.state.swapiService;
         const personDetails = (
             <ItemDetails
                 itemId={11}
@@ -80,8 +90,8 @@ export default class App extends Component {
         );
         return (
             <div>
-                <SwapiServiceProvider value={this.swapiService}>
-                    <Header/>
+                <SwapiServiceProvider value={this.state.swapiService}>
+                    <Header onServiceChange={this.onServiceChange}/>
                     {planet}
                     <button
                         className="toggle-planet btn btn-warning btn-lg"
