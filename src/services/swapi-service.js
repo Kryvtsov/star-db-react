@@ -91,6 +91,6 @@ const swapi = new SwapiService();
 
 swapi.getAllStarships().then( (people) => {
     people.forEach((p) => {
-        console.log(p.name)
+        //console.log(p.name)
     })
 })
