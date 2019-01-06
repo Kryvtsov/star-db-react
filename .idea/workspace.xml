@@ -4,8 +4,9 @@
     <list default="true" id="3ee2d35d-84bf-4d6d-8891-42482419dee1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/item-list/item-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item-list/item-list.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/random-planet/random-planet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/random-planet/random-planet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/row/row.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/row/row.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,20 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="random-planet.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/random-planet/random-planet.js">
+      <file leaf-file-name="header.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/header/header.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="item-list.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/item-list/item-list.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+            <state relative-caret-position="135">
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -37,14 +29,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="row.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/row/row.js">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/app/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="22" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="22" />
+            <state relative-caret-position="215">
+              <caret line="52" column="45" lean-forward="true" selection-start-line="52" selection-start-column="45" selection-end-line="52" selection-end-column="45" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/sw-components/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#0#80#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="starships-page.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/pages/starships-page.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="37" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -114,7 +127,6 @@
         <option value="$PROJECT_DIR$/src/components/people-page/people-page.js" />
         <option value="$PROJECT_DIR$/src/components/item-details/item-details.css" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/components/row/row.js" />
         <option value="$PROJECT_DIR$/src/components/swapi-service-context/swapi-service-context.js" />
         <option value="$PROJECT_DIR$/src/components/swapi-service-context/index.js" />
         <option value="$PROJECT_DIR$/src/components/sw-components/details.js" />
@@ -122,7 +134,6 @@
         <option value="$PROJECT_DIR$/src/components/hoc-helpers/index.js" />
         <option value="$PROJECT_DIR$/src/components/item-details/index.js" />
         <option value="$PROJECT_DIR$/src/components/header/header.css" />
-        <option value="$PROJECT_DIR$/src/components/header/header.js" />
         <option value="$PROJECT_DIR$/src/services/dummy-swapi-service.js" />
         <option value="$PROJECT_DIR$/src/components/item-details/item-details.js" />
         <option value="$PROJECT_DIR$/src/components/pages/planets-page.js" />
@@ -137,8 +148,10 @@
         <option value="$PROJECT_DIR$/src/components/sw-components/starship-details.js" />
         <option value="$PROJECT_DIR$/src/components/pages/people-page.js" />
         <option value="$PROJECT_DIR$/src/components/random-planet/random-planet.js" />
-        <option value="$PROJECT_DIR$/src/components/app/app.js" />
         <option value="$PROJECT_DIR$/src/components/item-list/item-list.js" />
+        <option value="$PROJECT_DIR$/src/components/row/row.js" />
+        <option value="$PROJECT_DIR$/src/components/header/header.js" />
+        <option value="$PROJECT_DIR$/src/components/app/app.js" />
       </list>
     </option>
   </component>
@@ -193,19 +206,6 @@
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="star-db-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="star-db-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="sw-components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="star-db-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="star-db-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -213,7 +213,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="row&#9;FILE&#9;file:///Users/vladimir/Programming/star-db-react/src/components/row/row.js&#10;raw&#9;null&#9;null&#10;i&#9;FILE&#9;file:///Users/vladimir/Programming/star-db-react/src/components/item-list/item-list.js&#10;ra&#9;FILE&#9;file:///Users/vladimir/Programming/star-db-react/src/components/random-planet/random-planet.js&#10;app&#9;FILE&#9;file:///Users/vladimir/Programming/star-db-react/src/components/app/app.js&#10;randomp&#9;null&#9;null&#10;rand&#9;FILE&#9;file:///Users/vladimir/Programming/star-db-react/src/components/random-planet/random-planet.js&#10;onItemSelected&#9;null&#9;null&#10;ItemList&#9;FILE&#9;file:///Users/vladimir/Programming/star-db-react/src/components/sw-components/item-lists.js&#10;item&#9;FILE&#9;file:///Users/vladimir/Programming/star-db-react/src/components/item-list/item-list.js" />
+    <property name="SearchEverywhereHistoryKey" value="app&#9;FILE&#9;file:///Users/vladimir/Programming/star-db-react/src/components/app/app.js&#10;header&#9;FILE&#9;file:///Users/vladimir/Programming/star-db-react/src/components/header/header.js&#10;row&#9;FILE&#9;file:///Users/vladimir/Programming/star-db-react/src/components/row/row.js&#10;raw&#9;null&#9;null&#10;i&#9;FILE&#9;file:///Users/vladimir/Programming/star-db-react/src/components/item-list/item-list.js&#10;ra&#9;FILE&#9;file:///Users/vladimir/Programming/star-db-react/src/components/random-planet/random-planet.js&#10;randomp&#9;null&#9;null&#10;rand&#9;FILE&#9;file:///Users/vladimir/Programming/star-db-react/src/components/random-planet/random-planet.js&#10;onItemSelected&#9;null&#9;null&#10;ItemList&#9;FILE&#9;file:///Users/vladimir/Programming/star-db-react/src/components/sw-components/item-lists.js&#10;item&#9;FILE&#9;file:///Users/vladimir/Programming/star-db-react/src/components/item-list/item-list.js" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
@@ -254,12 +254,12 @@
       <workItem from="1543006525309" duration="26860000" />
       <workItem from="1544223957390" duration="51859000" />
       <workItem from="1546109447793" duration="1496000" />
-      <workItem from="1546253973909" duration="11513000" />
+      <workItem from="1546253973909" duration="14223000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91728000" />
+    <option name="totallyTimeSpent" value="94438000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="825" extended-state="6" />
@@ -270,9 +270,9 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.29258242" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33104396" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33104396" />
       <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -309,13 +309,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/random-planet/random-planet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/spinner/spinner.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
@@ -452,16 +445,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/sw-components/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#80#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/item-details/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -483,17 +466,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/header/header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="28" column="4" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
-          <folding>
-            <element signature="e#128#196#0" />
-            <element signature="e#203#422#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -528,16 +500,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" lean-forward="true" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/pages/starships-page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="34" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="34" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -642,26 +604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/random-planet/random-planet.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_2.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
@@ -669,22 +611,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/item-list/item-list.js">
+    <entry file="file://$PROJECT_DIR$/src/components/row/row.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        <state relative-caret-position="195">
+          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/row/row.js">
+    <entry file="file://$PROJECT_DIR$/src/components/item-list/item-list.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="22" />
+        <state relative-caret-position="320">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/random-planet/random-planet.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/app/app.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/header/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/sw-components/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/pages/starships-page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="37" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="52" column="45" lean-forward="true" selection-start-line="52" selection-start-column="45" selection-end-line="52" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import './row.css'
 
-const Row = ({left,right, center}) => {
+const Row = ({left,right}) => {
     return (
         <div className="row mb2">
             <div className="col-md-6">
