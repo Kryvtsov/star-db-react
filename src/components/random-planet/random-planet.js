@@ -40,7 +40,6 @@ export default class RandomPlanet extends Component {
   }
 
   componentWillUnmount() {
-      console.log(this.interval)
       clearInterval(this.interval)
   }
 
